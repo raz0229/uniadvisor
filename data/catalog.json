@@ -1,0 +1,15 @@
+{"courses":{
+"CS101":{"title":"Programming Fundamentals","credits":3,"prereqs":[],"programs":["BSAI","BSCS"],"offered":"Fall"},
+"MT101":{"title":"Calculus I","credits":3,"prereqs":[],"programs":["BSAI","BSCS"],"offered":"Fall"},
+"CS201":{"title":"Data Structures","credits":3,"prereqs":["CS101"],"programs":["BSAI","BSCS"],"offered":"Spring"},
+"MT201":{"title":"Linear Algebra","credits":3,"prereqs":["MT101"],"programs":["BSAI","BSCS"],"offered":"Spring"},
+"MT210":{"title":"Probability and Statistics","credits":3,"prereqs":["MT101"],"programs":["BSAI","BSCS"],"offered":"Fall"},
+"CS301":{"title":"Database Systems","credits":3,"prereqs":["CS201"],"programs":["BSAI","BSCS"],"offered":"Fall"},
+"AI301":{"title":"Machine Learning","credits":3,"prereqs":["CS201","MT201","MT210"],"programs":["BSAI"],"offered":"Spring"},
+"AI302":{"title":"Natural Language Processing","credits":3,"prereqs":["AI301"],"programs":["BSAI"],"offered":"Fall"},
+"AIDE3313":{"title":"Agent Based Modeling","credits":3,"prereqs":["CS201","MT210"],"programs":["BSAI"],"offered":"Fall"},
+"AI401":{"title":"Deep Learning","credits":3,"prereqs":["AI301"],"programs":["BSAI"],"offered":"Spring"}},
+"students":{
+"S1001":{"name":"Ayesha Khan","program":"BSAI","semester":5,"completed":{"CS101":"A","MT101":"B+","CS201":"A-","MT201":"B","MT210":"B+","CS301":"B"}},
+"S1002":{"name":"Bilal Ahmed","program":"BSAI","semester":3,"completed":{"CS101":"B","MT101":"C+","CS201":"B-"}},
+"S1003":{"name":"Hira Malik","program":"BSAI","semester":7,"completed":{"CS101":"A","MT101":"A","CS201":"A","MT201":"A-","MT210":"A","CS301":"A-","AI301":"B+","AIDE3313":"A"}}}}

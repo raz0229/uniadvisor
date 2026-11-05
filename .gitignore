@@ -1,0 +1,22 @@
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local runtime databases and vector indexes
+/storage/
+
+# Editor and operating system files
+.DS_Store
+.idea/
